@@ -10,7 +10,7 @@ public class Appointment {
     private final String reason;
     private final boolean confirmed;
 
-    private Appointment(AppointmentBuilder builder) {
+    Appointment(AppointmentBuilder builder) {
         this.appointmentId = builder.getAppointmentId();
         this.dateTime = builder.getDateTime();
         this.patientName = builder.getPatientName();
